@@ -1,0 +1,45 @@
+<div class="Main_text">
+    <h1>Все серии Игра Престолов</h1>
+  </div>
+  
+  <div class="Episode_Form_Container">
+    <form class="Episode_Form" (ngSubmit)="watchSelectedEpisode()">
+      <div class="Form_Group">
+        <label for="season">Сезон:</label>
+        <select
+          id="season"
+          name="season"
+          [(ngModel)]="selectedSeason"
+          [ngModelOptions]="{ standalone: true }"
+          required
+        >
+          <option [ngValue]="null" disabled>Выберите сезон</option>
+          <option *ngFor="let season of seasons" [ngValue]="season.value">
+            {{ season.label }}
+          </option>
+        </select>
+      </div>
+  
+      <div class="Form_Group" *ngIf="selectedSeason !== null">
+        <label for="episode">Серия:</label>
+        <select
+          id="episode"
+          name="episode"
+          [(ngModel)]="selectedEpisode"
+          [ngModelOptions]="{ standalone: true }"
+          required
+        >
+          <option [ngValue]="null" disabled>Выберите серию</option>
+          <option *ngFor="let ep of getEpisodeList(selectedSeason!)" [ngValue]="ep">
+            {{ ep }}
+          </option>
+        </select>
+      </div>
+  
+      <button class="Watch_Button" type="submit">
+        <span class="Triangle"></span>
+        <span class="Text">Смотреть</span>
+      </button>
+    </form>
+  </div>
+  

@@ -1,0 +1,563 @@
+{
+    "seasons": [
+      {
+        "number": 1,
+        "title": "\"Зима близко\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e1_preview.jpg",
+            "title": "Серия 1: \"Зима близко\"",
+            "description": "Эддард Старк становится Десницей короля, а за Стеной пробуждается древнее зло.",
+            "rating": "★★★★★★★★★★ 9.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e2_preview.jpg",
+            "title": "Серия 2: \"Путь короля\"",
+            "description": "Джоффри становится королём, а Дейенерис получает драконьи яйца.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e3_preview.jpg",
+            "title": "Серия 3: \"То, что мертво, умереть не может\"",
+            "description": "Ренли и Станнис спорят за право на престол, а Арья встречает Жакана Хагара.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e4_preview.jpg",
+            "title": "Серия 4: \"Калеки, ублюдки и сломанные вещи\"",
+            "description": "Тирион прибывает в Королевскую Гавань, а Джон Сноу начинает обучение в Ночном Дозоре.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e5_preview.jpg",
+            "title": "Серия 5: \"Волк и Лев\"",
+            "description": "Эддард Старк расследует смерть Джона Аррена, а Дейенерис начинает понимать свою силу.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e6_preview.jpg",
+            "title": "Серия 6: \"Золотая корона\"",
+            "description": "Эддард принимает сложное решение, а Дейенерис проявляет свою силу.",
+            "rating": "★★★★★★★★★☆ 8.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e7.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e7_preview.jpg",
+            "title": "Серия 7: \"Ты побеждаешь или умираешь\"",
+            "description": "Эддард сталкивается с последствиями своих решений, а Дейенерис получает армию.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e8.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e8_preview.jpg",
+            "title": "Серия 8: \"Острый конец\"",
+            "description": "Эддард сталкивается с предательством, а Дейенерис теряет близкого человека.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e9.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e9_preview.jpg",
+            "title": "Серия 9: \"Бейелор\"",
+            "description": "Эддард сталкивается с последствиями своих действий, а Дейенерис принимает важное решение.",
+            "rating": "★★★★★★★★★☆ 9.2"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s01/s1e10.mp4",
+            "posterPath": "assets/img/Game of Thrones s01/s1e10_preview.jpg",
+            "title": "Серия 10: \"Огонь и кровь\"",
+            "description": "Эддард сталкивается с судьбой, а Дейенерис демонстрирует свою мощь.",
+            "rating": "★★★★★★★★★☆ 9.3"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "\"Война пяти королей\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e1_preview.jpg",
+            "title": "Серия 1: \"Север помнит\"",
+            "description": "Тирион прибывает в Королевскую Гавань, чтобы занять пост Десницы короля, а Робб Старк готовится к войне.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e2_preview.jpg",
+            "title": "Серия 2: \"Ночные земли\"",
+            "description": "Тирион пытается навести порядок в Королевской Гавани, а Арья встречает Жакана Хагара.",
+            "rating": "★★★★★★★★★☆ 8.6"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e3_preview.jpg",
+            "title": "Серия 3: \"То, что мертво, умереть не может\"",
+            "description": "Ренли и Станнис спорят за право на престол, а Дейенерис ищет союзников в Кварте.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e4_preview.jpg",
+            "title": "Серия 4: \"Сад костей\"",
+            "description": "Тирион пытается укрепить оборону Королевской Гавани, а Робб Старк заключает союз с домом Фреев.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e5_preview.jpg",
+            "title": "Серия 5: \"Призрак Харренхолла\"",
+            "description": "Тирион раскрывает заговор против себя, а Арья и Жакен Хагар попадают в Харренхолл.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e6_preview.jpg",
+            "title": "Серия 6: \"Старые боги и новые\"",
+            "description": "Теон Грейджой захватывает Винтерфелл, а Дейенерис получает предложение от Кварта.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e7.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e7_preview.jpg",
+            "title": "Серия 7: \"Человек без чести\"",
+            "description": "Джейме Ланнистер пытается сбежать из плена, а Теон Грейджой сталкивается с последствиями своих действий.",
+            "rating": "★★★★★★★★★☆ 8.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e8.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e8_preview.jpg",
+            "title": "Серия 8: \"Принц Винтерфелла\"",
+            "description": "Робб Старк заключает союз с домом Талли, а Дейенерис получает доступ к Дому Бессмертных.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e9.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e9_preview.jpg",
+            "title": "Серия 9: \"Чёрная вода\"",
+            "description": "Станнис Баратеон атакует Королевскую Гавань, а Тирион возглавляет оборону города.",
+            "rating": "★★★★★★★★★★ 9.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s02/s2e10.mp4",
+            "posterPath": "assets/img/Game of Thrones s02/s2e10_preview.jpg",
+            "title": "Серия 10: \"Валар Моргулис\"",
+            "description": "Дейенерис получает доступ к Дому Бессмертных, а Джон Сноу сталкивается с одичалыми.",
+            "rating": "★★★★★★★★★☆ 9.4"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "\"Путь мести\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e1_preview.jpg",
+            "title": "Серия 1: \"Валар Дохаэрис\"",
+            "description": "Дейенерис плывет в Слейверс-Бей, а Джон Сноу встречает одичалых за Стеной.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e2_preview.jpg",
+            "title": "Серия 2: \"Чёрные крылья, чёрные вести\"",
+            "description": "Тирион получает неприятные новости, а Робб Старк сталкивается с предательством.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e3_preview.jpg",
+            "title": "Серия 3: \"Стезя страданий\"",
+            "description": "Дейенерис осматривает свою армию, а Джейме рассказывает Бриенн свою историю.",
+            "rating": "★★★★★★★★★☆ 8.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e4_preview.jpg",
+            "title": "Серия 4: \"Теперь его дозор окончен\"",
+            "description": "Джон Сноу проходит испытание у одичалых, а Дейенерис планирует освобождение рабов.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e5_preview.jpg",
+            "title": "Серия 5: \"Поцелованная огнем\"",
+            "description": "Джейме спасает Бриенн, а Дейенерис получает контроль над Юнкаем.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e6_preview.jpg",
+            "title": "Серия 6: \"Восхождение\"",
+            "description": "Робб Старк пытается вернуть поддержку, а Арья снова встречает Братство без знамён.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e7.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e7_preview.jpg",
+            "title": "Серия 7: \"Медведь и прекрасная дева\"",
+            "description": "Джейме возвращается в Королевскую Гавань, а Санса узнает о своих новых обязанностях.",
+            "rating": "★★★★★★★★★☆ 9.2"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e8.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e8_preview.jpg",
+            "title": "Серия 8: \"Вторые сыновья\"",
+            "description": "Дейенерис встречает сопротивление в Юнкае, а Санса знакомится с Тиреллами.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e9.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e9_preview.jpg",
+            "title": "Серия 9: \"Дожди Кастамере\"",
+            "description": "Важные события на Близнецах изменяют ход войны.",
+            "rating": "★★★★★★★★★★ 9.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s03/s3e10.mp4",
+            "posterPath": "assets/img/Game of Thrones s03/s3e10_preview.jpg",
+            "title": "Серия 10: \"Миса\"",
+            "description": "Дейенерис празднует победу, а Джон Сноу возвращается к Стене.",
+            "rating": "★★★★★★★★★☆ 9.6"
+          }
+        ]
+      }, 
+      {
+        "number": 4,
+        "title": "\"Тени над Вестеросом\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e1_preview.jpg",
+            "title": "Серия 1: \"Дни наших жизней\"",
+            "description": "Новые угрозы нависают над королевствами, а старые враги возвращаются.",
+            "rating": "★★★★★★★★★☆ 8.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e2_preview.jpg",
+            "title": "Серия 2: \"Король в Железном троне\"",
+            "description": "Джейме Ланнистер сталкивается с последствиями, а Тайвин готовит заговоры.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e3_preview.jpg",
+            "title": "Серия 3: \"Час Волка\"",
+            "description": "Восстание усиливается, и Дейенерис сталкивается с вызовами в Меере.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e4_preview.jpg",
+            "title": "Серия 4: \"Крепость и корона\"",
+            "description": "Интриги в Королевской Гавани доходят до апогея.",
+            "rating": "★★★★★★★★★☆ 8.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e5_preview.jpg",
+            "title": "Серия 5: \"Пламя и кровь\"",
+            "description": "Драконы Дейенерис растут, а на Севере назревает война.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e6_preview.jpg",
+            "title": "Серия 6: \"Кровь и огонь\"",
+            "description": "Судьбы персонажей переплетаются на фоне масштабных сражений.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e7.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e7_preview.jpg",
+            "title": "Серия 7: \"Кровавая жатва\"",
+            "description": "Трагические события меняют ход истории Вестероса.",
+            "rating": "★★★★★★★★★☆ 9.3"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e8.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e8_preview.jpg",
+            "title": "Серия 8: \"Последний долг\"",
+            "description": "Смерть и предательство ставят под вопрос будущее королевств.",
+            "rating": "★★★★★★★★★☆ 9.2"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e9.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e9_preview.jpg",
+            "title": "Серия 9: \"Суд короля\"",
+            "description": "Королевский суд решает судьбы многих.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s04/s4e10.mp4",
+            "posterPath": "assets/img/Game of Thrones s04/s4e10_preview.jpg",
+            "title": "Серия 10: \"Огонь и кровь\"",
+            "description": "Великая битва и новые повороты судьбы.",
+            "rating": "★★★★★★★★★☆ 9.4"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "\"Вихрь интриг\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e1_preview.jpg",
+            "title": "Серия 1: \"Долг и честь\"",
+            "description": "Джон Сноу пытается сохранить мир с дикарями, а Серсея планирует свои ходы.",
+            "rating": "★★★★★★★★★☆ 8.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e2_preview.jpg",
+            "title": "Серия 2: \"Пламя Веры\"",
+            "description": "Дейенерис сталкивается с религиозным фанатизмом в Меере.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e3_preview.jpg",
+            "title": "Серия 3: \"Темные времена\"",
+            "description": "Серсея борется с религиозной группировкой, угрожающей её власти.",
+            "rating": "★★★★★★★★★☆ 8.8"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e4_preview.jpg",
+            "title": "Серия 4: \"Стальные сердца\"",
+            "description": "Битвы на Севере и новые угрозы для Вестероса.",
+            "rating": "★★★★★★★★★☆ 8.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e5_preview.jpg",
+            "title": "Серия 5: \"Тайны под землей\"",
+            "description": "Арья обучается в Храме Лиса, а Джон сталкивается с предательством.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e6_preview.jpg",
+            "title": "Серия 6: \"Война теней\"",
+            "description": "Интриги и борьба за власть достигают нового уровня.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e7.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e7_preview.jpg",
+            "title": "Серия 7: \"Печать короны\"",
+            "description": "Серсея сталкивается с последствиями своих поступков.",
+            "rating": "★★★★★★★★★☆ 9.3"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e8.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e8_preview.jpg",
+            "title": "Серия 8: \"Ночная стража\"",
+            "description": "Джон и Ночной Дозор готовятся к предстоящей битве.",
+            "rating": "★★★★★★★★★☆ 9.2"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e9.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e9_preview.jpg",
+            "title": "Серия 9: \"Война королей\"",
+            "description": "Разгар войны за Железный трон и судьбы героев.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s05/s5e10.mp4",
+            "posterPath": "assets/img/Game of Thrones s05/s5e10_preview.jpg",
+            "title": "Серия 10: \"Ветер перемен\"",
+            "description": "Переломный момент для Вестероса и его жителей.",
+            "rating": "★★★★★★★★★☆ 9.4"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "\"Пламя и кровь\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e1_preview.jpg",
+            "title": "Серия 1: \"Возрождение\"",
+            "description": "Джон Сноу возвращается к жизни, а Дейенерис продолжает завоевания.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e2_preview.jpg",
+            "title": "Серия 2: \"Король севера\"",
+            "description": "Робб Старк становится символом надежды для Севера.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e3_preview.jpg",
+            "title": "Серия 3: \"Встреча королей\"",
+            "description": "Дейенерис и Джон обсуждают союз против общего врага.",
+            "rating": "★★★★★★★★★☆ 9.2"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e4_preview.jpg",
+            "title": "Серия 4: \"Пламя драконов\"",
+            "description": "Дейенерис демонстрирует силу своих драконов в новой битве.",
+            "rating": "★★★★★★★★★☆ 9.3"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e5_preview.jpg",
+            "title": "Серия 5: \"Тень войны\"",
+            "description": "Заговоры и предательства угрожают объединению Севера и Юга.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e6_preview.jpg",
+            "title": "Серия 6: \"Песнь льда и огня\"",
+            "description": "Кульминация интриг и начало масштабной битвы за Вестерос.",
+            "rating": "★★★★★★★★★☆ 9.4"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e7.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e7_preview.jpg",
+            "title": "Серия 7: \"Падение врага\"",
+            "description": "Герои Вестероса сталкиваются с личными трагедиями и победами.",
+            "rating": "★★★★★★★★★☆ 9.2"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e8.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e8_preview.jpg",
+            "title": "Серия 8: \"Призыв к оружию\"",
+            "description": "Союзы заключаются, и Война за Железный трон набирает обороты.",
+            "rating": "★★★★★★★★★☆ 9.3"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e9.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e9_preview.jpg",
+            "title": "Серия 9: \"Путь домой\"",
+            "description": "Персонажи ищут свое место после сражений и интриг.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s06/s6e10.mp4",
+            "posterPath": "assets/img/Game of Thrones s06/s6e10_preview.jpg",
+            "title": "Серия 10: \"Корона и меч\"",
+            "description": "Финальная битва за власть над Вестеросом.",
+            "rating": "★★★★★★★★★☆ 9.5"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "title": "\"Война за Железный трон\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s07/s7e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s07/s7e1_preview.jpg",
+            "title": "Серия 1: \"Драконы и волки\"",
+            "description": "Дейенерис прибывает в Винтерфелл, а Джон Сноу и Серсея Ланнистер готовятся к войне.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s07/s7e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s07/s7e2_preview.jpg",
+            "title": "Серия 2: \"Штормовой фронт\"",
+            "description": "Роберт Баратеон вспоминается, а в Винтерфелле идут приготовления к защите от надвигающейся угрозы.",
+            "rating": "★★★★★★★★★☆ 8.7"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s07/s7e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s07/s7e3_preview.jpg",
+            "title": "Серия 3: \"Незваный гость\"",
+            "description": "Джейме Ланнистер прибывает в Винтерфелл, а Дейенерис сталкивается с предательством.",
+            "rating": "★★★★★★★★☆☆ 8.5"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s07/s7e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s07/s7e4_preview.jpg",
+            "title": "Серия 4: \"Последний герой\"",
+            "description": "Джон Сноу отправляется за стену, чтобы доказать реальность угрозы от Белых ходоков.",
+            "rating": "★★★★★★★★☆☆ 8.6"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s07/s7e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s07/s7e5_preview.jpg",
+            "title": "Серия 5: \"Дракон и волк\"",
+            "description": "Союзники собираются в Королевской Гавани, чтобы обсудить общую угрозу.",
+            "rating": "★★★★★★★★★☆ 9.1"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s07/s7e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s07/s7e6_preview.jpg",
+            "title": "Серия 6: \"За стеной\"",
+            "description": "Джон и его группа попадают в засаду Белых ходоков за стеной.",
+            "rating": "★★★★★★★★★☆ 9.0"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s07/s7e7.mp4",
+            "posterPath": "assets/img/Game of Thrones s07/s7e7_preview.jpg",
+            "title": "Серия 7: \"Дракон и волк\"",
+            "description": "Завершение сезона: масштабное столкновение и раскрытие планов врага.",
+            "rating": "★★★★★★★★★☆ 9.3"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "title": "\"Последняя битва\"",
+        "episodes": [
+          {
+            "videoPath": "assets/img/Game of Thrones s08/s8e1.mp4",
+            "posterPath": "assets/img/Game of Thrones s08/s8e1_preview.jpg",
+            "title": "Серия 1: \"Зимний штурм\"",
+            "description": "Подготовка к битве с Белыми ходоками в Винтерфелле.",
+            "rating": "★★★★★★★★☆☆ 8.4"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s08/s8e2.mp4",
+            "posterPath": "assets/img/Game of Thrones s08/s8e2_preview.jpg",
+            "title": "Серия 2: \"Долгая ночь\"",
+            "description": "Великая битва между живыми и мертвыми разворачивается ночью.",
+            "rating": "★★★★★★★★★★ 9.5"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s08/s8e3.mp4",
+            "posterPath": "assets/img/Game of Thrones s08/s8e3_preview.jpg",
+            "title": "Серия 3: \"Последствия\"",
+            "description": "Последствия битвы и дальнейшее движение к трону.",
+            "rating": "★★★★★★★☆☆☆ 7.9"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s08/s8e4.mp4",
+            "posterPath": "assets/img/Game of Thrones s08/s8e4_preview.jpg",
+            "title": "Серия 4: \"Последний дом Stark\"",
+            "description": "Битва за Королевскую Гавань и судьба ключевых персонажей.",
+            "rating": "★★★★★★★★☆☆ 8.3"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s08/s8e5.mp4",
+            "posterPath": "assets/img/Game of Thrones s08/s8e5_preview.jpg",
+            "title": "Серия 5: \"Дракон и пепел\"",
+            "description": "Разрушение и последствия действий Дейенерис.",
+            "rating": "★★★★★★☆☆☆☆ 6.5"
+          },
+          {
+            "videoPath": "assets/img/Game of Thrones s08/s8e6.mp4",
+            "posterPath": "assets/img/Game of Thrones s08/s8e6_preview.jpg",
+            "title": "Серия 6: \"Железный трон\"",
+            "description": "Финал истории и выбор нового правителя Вестероса.",
+            "rating": "★★★★★★☆☆☆☆ 6.9"
+          }
+        ]
+      }
+    ]
+  }

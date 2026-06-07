@@ -1,0 +1,172 @@
+.Container_Season {
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    width: 80%;
+    height: auto; /* Меняем фиксированную высоту */
+    min-height: 850px; /* Минимальная высота */
+    padding: 0;
+    position: relative;
+    margin-bottom: 80px;
+    padding-bottom: 50px; /* Добавляем отступ снизу */
+}
+
+.Head_of_Container_Season {
+    margin-left: 5%;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.Season_Lable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 10%;
+    height: 40px;
+    color: #BFBFBF;
+}
+
+.Posts_Container {
+    height: auto; /* Меняем фиксированную высоту */
+    min-height: 720px;
+    border-radius: 15px;
+    border: 4px solid #262626;
+    margin-top: -21px;
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+    padding-top: 70px;
+}
+
+.Seasons_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Season_group {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap; /* Добавляем перенос строк */
+}
+
+.card {
+    border: 4px solid #262626;
+    flex: 1;
+    min-width: 180px; /* Минимальная ширина карточки */
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 25px 20px 20px;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 100%;
+    height: 252px;
+    object-fit: cover;
+    user-select: none;
+    pointer-events: none;
+    border-radius: 6px;
+}
+
+.card h4 {
+    color: #BFBFBF;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Медиазапросы для адаптации */
+@media (max-width: 1200px) {
+    .Container_Season {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    
+    .card {
+        flex: 0 0 calc(20% - 24px); /* 5 карточек в ряд */
+    }
+}
+
+@media (max-width: 1024px) {
+    .card {
+        flex: 0 0 calc(25% - 24px); /* 4 карточки в ряд */
+    }
+}
+
+@media (max-width: 850px) {
+    .card {
+        flex: 0 0 calc(33.333% - 24px); /* 3 карточки в ряд */
+    }
+}
+
+@media (max-width: 650px) {
+    .Posts_Container {
+        padding: 30px;
+        padding-top: 60px;
+    }
+    
+    .card {
+        flex: 0 0 calc(50% - 24px); /* 2 карточки в ряд */
+    }
+}
+
+@media (max-width: 480px) {
+    .Container_Season {
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 94%;
+    }
+    
+    .Posts_Container {
+        padding: 20px;
+        padding-top: 50px;
+    }
+    
+    .Season_Lable {
+        width: auto;
+        padding: 10px 25px;
+    }
+    
+    .Season_group {
+        gap: 20px;
+    }
+    
+    .card {
+        flex: 0 0 100%; /* 1 карточка в ряд */
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 360px) {
+    .card img {
+        height: 180px;
+    }
+    
+    .card h4 {
+        font-size: 16px;
+    }
+}

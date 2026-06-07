@@ -1,0 +1,84 @@
+
+
+<div *ngIf="isLoading" class="loading">
+  Загрузка данных...
+</div>
+
+<div *ngIf="!isLoading">
+  <main class="Video_Container" *ngIf="currentEpisode">
+
+    <!-- Реклама -->
+    <div *ngIf="adPlaying" class="Ad_Container">
+      
+      <a href="https://biggeek.ru/products/besprovodnye-nausniki-apple-airpods-s-zaradnym-futlarom-usb-c-4-go-pokolenia-2024" target="_blank" rel="noopener noreferrer" class="ad-link">
+        <iframe
+          width="100%"
+          height="480"
+          [src]="adVideoUrl"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
+      </a>
+    
+      <button
+        *ngIf="showSkipButton"
+        class="Skip_Ad_Button"
+        (click)="skipAd()">
+        Пропустить рекламу
+      </button>
+    </div>
+
+    <video *ngIf="!adPlaying"
+       #videoPlayer 
+       [poster]="currentEpisode.posterPath" 
+       controls>
+      <source [src]="currentEpisode.videoPath + '?t=' + timestamp" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+  </main>
+
+  <div class="Season_Navigation" *ngIf="currentSeason">
+    <button 
+      *ngIf="currentSeasonIndex > 0"
+      class="Season_Button"
+      (click)="changeSeason(-1)">
+      ◄ Сезон {{ currentSeason.number - 1 }}
+    </button>
+  
+    <div>
+      <h3>Сезон {{ currentSeason.number }}</h3>
+      <h3>{{ currentSeason.title }}</h3>
+    </div>
+  
+    <button 
+      *ngIf="currentSeasonIndex < seasons.length - 1"
+      class="Season_Button" 
+      (click)="changeSeason(1)">
+      Сезон {{ currentSeason.number + 1 }} ►
+    </button>
+  </div>
+  
+  <section class="Episode_Info" *ngIf="currentSeason">
+    <div class="Season_List">
+      <ul>
+        <li *ngFor="let episode of currentSeason.episodes; let i = index">
+          <a 
+            href="#" 
+            (click)="selectEpisode(i); $event.preventDefault()"
+            [class.active]="i === currentEpisodeIndex">
+            Серия {{ i + 1 }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="Episode_Details" *ngIf="currentEpisode">
+      <h2>{{ currentEpisode.title }}</h2>
+      <p>{{ currentEpisode.description }}</p>
+      <div class="Rating">
+        <span class="Rating_Value Star">{{ currentEpisode.rating }}</span>
+      </div>
+    </div>
+  </section>
+</div>

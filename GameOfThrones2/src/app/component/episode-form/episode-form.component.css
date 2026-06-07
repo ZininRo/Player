@@ -1,0 +1,94 @@
+.Main_text {
+    text-align: center; /* Центрируем текст */
+  }
+  
+  .Text {
+    color: #BFBFBF; /* Белый цвет текста */
+    font-size: 18px; /* Размер текста */
+    font-weight: bold; /* Жирный шрифт */
+  }
+  /* Контейнер формы */
+.Episode_Form_Container {
+    margin: 30px auto;
+    max-width: 500px;
+    padding: 20px;
+    background: rgba(31, 31, 31, 0.9);
+    border-radius: 15px;
+    border: 2px solid #262626;
+  }
+  
+  /* Форма */
+  .Episode_Form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Группа полей */
+  .Form_Group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  /* Лейблы */
+  .Form_Group label {
+    color: #BFBFBF;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Поле выбора сезона */
+  .Form_Group select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #262626;
+    background: #1A1A1A;
+    color: #BFBFBF;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Поле ввода номера серии */
+  .Form_Group input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #262626;
+    background: #1A1A1A;
+    color: #BFBFBF;
+    font-size: 16px;
+  }
+  
+  
+  /* Кнопка "Смотреть" (используем существующие стили) */
+  .Episode_Form .Watch_Button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .Watch_Button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    background-color: #E50000; /* Красный цвет фона */
+    height: 50px;
+    border: none;
+    border-radius: 10px; /* Скругляем углы */
+    padding: 10px 20px;
+    cursor: pointer; /* Курсор в виде указателя */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+  }
+  
+  .Watch_Button:hover {
+    background-color: #CC0000; /* Темно-красный цвет при наведении */
+    
+  }
+  
+  .Triangle {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent; /* Создаем треугольник */
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid #BFBFBF; /* Белый треугольник */
+    border-radius: 2px; /* Скругляем края треугольника */
+    margin-right: 10px; /* Отступ между треугольником и текстом */
+  }

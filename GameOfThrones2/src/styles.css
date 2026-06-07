@@ -1,0 +1,13 @@
+body{
+    max-width: 100%;
+    background: #141414;
+    color: #BFBFBF;
+    font-family: Arial, sans-serif; /* Устанавливаем шрифт без засечек */
+}
+a {
+    color: #BFBFBF;
+    text-decoration: none;
+}
+h1{
+    font-weight: bold;
+}

@@ -1,0 +1,71 @@
+
+
+.Main_Container {
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    width: 80%;
+    height: 835px;
+    background-image: url('/assets/img/Container.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Масштабирует изображение, чтобы оно заполнило контейнер */
+    background-position: center; /* Центрирует изображение */
+
+    display: flex;
+    flex-direction: column; /* Элементы выстраиваются в колонку */
+    justify-content: flex-end; /* Размещаем все элементы внизу */
+
+    margin-bottom: 70px;
+}
+
+.Main_Sub_Container {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%; /* Ширина контейнера будет на всю ширину родительского блока */
+    padding: 20px; /* Можно добавить немного отступов для контента */
+}
+
+.Main_text {
+    text-align: center; /* Центрируем текст */
+}
+
+.Main_Buttons_Container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Watch_Button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    background-color: #E50000; /* Красный цвет фона */
+    height: 50px;
+    border: none;
+    border-radius: 10px; /* Скругляем углы */
+    padding: 10px 20px;
+    cursor: pointer; /* Курсор в виде указателя */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+}
+
+.Watch_Button:hover {
+    background-color: #CC0000; /* Темно-красный цвет при наведении */
+    
+}
+
+.Triangle {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent; /* Создаем треугольник */
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid #BFBFBF; /* Белый треугольник */
+    border-radius: 2px; /* Скругляем края треугольника */
+    margin-right: 10px; /* Отступ между треугольником и текстом */
+}
+
+.Text {
+    color: #BFBFBF; /* Белый цвет текста */
+    font-size: 18px; /* Размер текста */
+    font-weight: bold; /* Жирный шрифт */
+}

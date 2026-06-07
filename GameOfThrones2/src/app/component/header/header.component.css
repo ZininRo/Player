@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 45px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.Logo {
+    margin-left: 10%;
+    background-image: url('/assets/img/Logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 199px;
+    z-index: 100;
+}
+
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 100;
+    margin-right: 20px;
+}
+
+.burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.burger-line-rotate1 {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-line-rotate2 {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.burger-line-hide {
+    opacity: 0;
+}
+
+.Buttons_Container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0F0F0F;
+    width: 25%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 4px solid #262626;
+    transition: all 0.3s ease;
+}
+
+.NavBar_Links {
+    display: flex;
+    list-style: none;
+    gap: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #BFBFBF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.active {
+    color: #fff;
+    border-bottom: 2px solid #262626;
+}
+
+@media (max-width: 1500px) {
+    .Buttons_Container {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Buttons_Container {
+        width: 35%;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger-menu {
+        display: block;
+    }
+    
+    .Buttons_Container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        background-color: #0F0F0F;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+        border: none;
+        z-index: 90;
+        opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+    }
+    
+    .Buttons_Container.menu-open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+    
+    .NavBar_Links {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .Logo {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .Logo {
+        width: 150px;
+        height: 45px;
+    }
+}

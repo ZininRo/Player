@@ -1,0 +1,17 @@
+<header id="main-header">
+    <div class="Logo"></div>
+
+    <div class="burger-menu" (click)="toggleMenu()">
+        <div class="burger-line" [class.burger-line-rotate1]="isMenuOpen"></div>
+        <div class="burger-line" [class.burger-line-hide]="isMenuOpen"></div>
+        <div class="burger-line" [class.burger-line-rotate2]="isMenuOpen"></div>
+    </div>
+
+    <div class="Buttons_Container" [class.menu-open]="isMenuOpen">
+        <ul class="NavBar_Links">
+            <li><a routerLink="/index" routerLinkActive="active" (click)="closeMenu()">Главная</a></li>
+            <li><a routerLink="/SeeAll" routerLinkActive="active" (click)="closeMenu()">Все серии</a></li>
+            <li><a routerLink="/watch-episode" routerLinkActive="active" (click)="closeMenu()">Смотреть</a></li>
+        </ul>
+    </div>
+</header>

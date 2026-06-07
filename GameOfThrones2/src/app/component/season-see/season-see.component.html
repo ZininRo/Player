@@ -1,0 +1,23 @@
+<section class="Container_Season">
+    <div class="Head_of_Container_Season">
+      <h3 class="Season_Lable">Сезон {{ seasonNumber }}</h3>
+    </div>
+  
+    <div class="Posts_Container">
+      <div class="Seasons_Container">
+        <div class="Season_group" *ngFor="let group of chunkArray(episodes, 5)">
+          <div
+            class="card"
+            *ngFor="let episode of group"
+            (click)="playEpisode(episode)"
+            style="cursor: pointer;"
+            title="Смотреть серию {{ episode }} сезона {{ seasonNumber }}"
+          >
+            <img [src]="imagePath" [alt]="'Сезон ' + seasonNumber" />
+            <h4>Серия {{ episode }}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+  

@@ -1,0 +1,126 @@
+/* Общие стили для футера */
+footer {
+    background-color: #0F0F0F;
+    color: #BFBFBF;
+    padding: 40px 5%;
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для первого блока (пять столбцов) */
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap; /* Разрешаем перенос столбцов */
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.column {
+    flex: 1 1 200px; /* Минимальная ширина 200px */
+    min-width: 0; /* Фикс для переполнения текста */
+}
+
+.column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.column p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.column a {
+    color: #BFBFBF;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.column a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+/* Стили для второго блока (нижний блок) */
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333333;
+}
+
+.footer-bottom p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #BFBFBF;
+}
+
+/* Адаптивные стили */
+@media (max-width: 1024px) {
+    .footer-columns {
+        gap: 25px;
+    }
+    
+    .column {
+        flex: 1 1 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 5%;
+    }
+    
+    .footer-columns {
+        gap: 20px;
+    }
+    
+    .column {
+        flex: 1 1 150px;
+    }
+    
+    .column h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-columns {
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .column {
+        flex: 1 1 auto;
+        border-bottom: 1px solid #333333;
+        padding-bottom: 20px;
+    }
+    
+    .column:last-child {
+        border-bottom: none;
+    }
+    
+    .footer-bottom p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 25px 15px;
+    }
+    
+    .column h4 {
+        font-size: 15px;
+    }
+    
+    .column p {
+        font-size: 13px;
+    }
+    
+    hr {
+        width: 90%;
+    }
+}

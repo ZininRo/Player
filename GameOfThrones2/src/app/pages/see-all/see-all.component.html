@@ -1,0 +1,8 @@
+<app-episode-form></app-episode-form>
+<ng-container *ngFor="let season of seasons">
+    <app-season-see
+        [seasonNumber]="season.number"
+        [episodesCount]="season.episodes"
+        [imagePath]="season.image">
+    </app-season-see>
+</ng-container>

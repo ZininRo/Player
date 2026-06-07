@@ -1,0 +1,297 @@
+/* Блок с информацией о серии */
+.Episode_Info {
+    display: flex;
+    gap: 20px;
+    margin: 20px auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+    background: #1A1A1A;
+    border-radius: 15px;
+    border: 4px solid #262626;
+  }
+  
+  /* Левый блок: Сезон и список серий */
+  .Season_List {
+    flex: 1;
+  }
+  
+  .Season_List h3 {
+    color: #BFBFBF;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .Season_List ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Season_List li {
+    margin: 10px 0;
+  }
+  
+  .Season_List a {
+    color: #BFBFBF;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .Season_List a:hover {
+    color: #E50000;
+  }
+  
+  /* Правый блок: Описание и рейтинг */
+  .Episode_Details {
+    flex: 2;
+  }
+  
+  .Episode_Details h2 {
+    color: #BFBFBF;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .Episode_Details p {
+    color: #BFBFBF;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
+  
+  .Rating_Value {
+    color: #BFBFBF;
+    font-size: 18px;
+  
+  }
+/* Скрываем кнопку на десктопе */
+.mobile-menu-toggle {
+    display: none;
+  }
+
+  .Video_Container {
+    width: 69.5%; /* Фиксированная ширина вместо max-width */
+    margin: 20px auto; /* Центрирование по горизонтали */
+    aspect-ratio: 16/9; /* Соотношение сторон */
+    position: relative; /* Для позиционирования внутренних элементов */
+  }
+  
+  .Video_Container video {
+    width: 100%; /* Занимает всю ширину контейнера */
+    height: 100%; /* Занимает всю высоту контейнера */
+    object-fit: cover; /* Сохраняет пропорции видео */
+    border-radius: 15px;
+    border: 4px solid #262626;
+    background: #000;
+  }
+
+
+/* //////////////////////////////////////// */
+  /* Контейнер для навигации по сезонам */
+.Season_Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 70%;
+  margin: 20px auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 15px;
+  background: #1A1A1A;
+  border-radius: 15px;
+  border: 4px solid #262626;
+}
+
+/* Кнопки переключения сезонов */
+.Season_Button {
+  background: #0F0F0F;
+  border: 2px solid #262626;
+  color: #BFBFBF;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.Season_Button:hover {
+  background: #E50000;
+  color: #FFF;
+  border-color: #E50000;
+}
+
+/* Заголовок сезона */
+.Season_Navigation h3 {
+  color: #BFBFBF;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+.Star {
+    color: #BFBFBF; /* Цвет пустой звезды */
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+
+  .Ad_Container {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 4px solid #262626;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .Ad_Container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+    pointer-events: none;
+  }
+  
+  .Skip_Ad_Button {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 10;
+  }
+
+  .ad-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    pointer-events: auto;
+  }
+
+  /* Для экранов до 1200px */
+@media (max-width: 1200px) {
+  .Video_Container {
+    width: 80%;
+  }
+  
+  .Season_Navigation,
+  .Episode_Info {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+  }
+}
+
+/* Для экранов до 992px (планшеты) */
+@media (max-width: 992px) {
+  .Video_Container {
+    width: 85%;
+  }
+  
+  .Season_Navigation,
+  .Episode_Info {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    max-width: 85%;
+  }
+  
+  .Episode_Info {
+    flex-direction: column;
+  }
+  
+  .Season_List,
+  .Episode_Details {
+    flex: auto;
+    width: 100%;
+  }
+  
+  .Season_List {
+    margin-bottom: 20px;
+  }
+}
+
+/* Для экранов до 768px (мобильные в горизонтальной ориентации) */
+@media (max-width: 768px) {
+  .Video_Container {
+    width: 90%;
+  }
+  
+  .Season_Navigation,
+  .Episode_Info {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 90%;
+  }
+  
+  .Season_Navigation {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .Season_Navigation h3 {
+    font-size: 20px;
+  }
+  
+  .Season_Button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Для экранов до 576px (мобильные) */
+@media (max-width: 576px) {
+  .Video_Container {
+    width: 95%;
+  }
+  
+  .Season_Navigation,
+  .Episode_Info {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    max-width: 95%;
+  }
+  
+  .Episode_Details h2 {
+    font-size: 24px;
+  }
+  
+  .Episode_Details p {
+    font-size: 14px;
+  }
+  
+  .Season_List a {
+    font-size: 16px;
+  }
+  
+  .Rating_Value {
+    font-size: 16px;
+  }
+}
+
+/* Для очень маленьких экранов до 400px */
+@media (max-width: 400px) {
+  .Season_Navigation h3 {
+    font-size: 18px;
+  }
+  
+  .Season_Button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  
+  .Episode_Details h2 {
+    font-size: 20px;
+  }
+}
+  
+  

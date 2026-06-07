@@ -1,0 +1,163 @@
+
+.Container_Season {
+    box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    width: 80%;
+    height: 850px;
+    padding: 0;
+    position: relative; /* Добавляем относительное позиционирование для контейнера */
+    margin-bottom: 80px;
+}
+
+.Head_of_Container_Season {
+    margin-left: 5%;
+    height: 50px;
+    position: relative; /* Добавляем относительное позиционирование */
+    z-index: 2; /* Убедимся, что заголовок находится выше Posts_Container */
+}
+
+
+
+.Season_Lable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 10%;
+    height: 40px;
+    color: #BFBFBF; /* Добавим цвет текста для видимости */
+}
+
+.Posts_Container {
+    height: 720px;
+    border-radius: 15px;
+    border: 4px solid #262626;
+    margin-top: -21px; /* Отрицательный отступ, чтобы поднять контейнер вверх */
+    position: relative; /* Добавляем относительное позиционирование */
+    z-index: 1; /* Убедимся, что Posts_Container находится ниже заголовка */
+    padding: 50px; /* Отступ внутри контейнера */
+    padding-top: 70px;
+}
+
+
+/* Стили для Seasons_Container */
+.Seasons_Container {
+    display: flex;
+    flex-direction: column; /* Группы сезонов выстраиваются вертикально */
+    gap: 50px; /* Отступ между группами сезонов */
+}
+
+/* Стили для Season_group */
+.Season_group {
+    display: flex;
+    justify-content: space-between; /* Карточки равномерно распределяются по всей ширине */
+    gap: 30px; /* Отступ между карточками */
+}
+
+/* Стили для card */
+.card {
+    border: 4px solid #262626; /* Светлая обводка */
+    flex: 1; /* Карточки занимают равное пространство */
+    background-color: #1A1A1A;
+    border-radius: 10px;
+    overflow: hidden; /* Скрываем выходящие за пределы элементы */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавные эффекты */
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Тень при наведении */
+}
+
+.card img {
+    width: 100%; /* Изображение занимает всю ширину карточки */
+    height: 252px; /* Фиксированная высота изображения */
+    object-fit: cover; /* Изображение заполняет область без искажений */
+    user-select: none; /* Запрет выделения изображения */
+    pointer-events: none; /* Запрет взаимодействия с изображением */
+    border-radius: 6px;
+}
+
+.card h4 {
+    color: #BFBFBF;
+    font-size: 18px;
+    margin: 10px 0; 
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .Container_Season {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .Posts_Container {
+        height: auto;
+        padding: 40px;
+        padding-top: 70px;
+    }
+
+    .Season_group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .card {
+        flex: 0 0 calc(25% - 25px); 
+        margin-bottom: 25px;
+        min-width: 200px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        flex: 0 0 calc(33.333% - 25px);
+    }
+}
+
+@media (max-width: 768px) {
+    .Posts_Container {
+        padding: 30px;
+        padding-top: 60px;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 25px); 
+    }
+}
+
+@media (max-width: 576px) {
+    .Container_Season {
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 94%;
+    }
+
+    .Posts_Container {
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .card {
+        flex: 0 0 100%; 
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
